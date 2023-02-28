@@ -1287,17 +1287,17 @@ export default {
       if (!this.timeValue || this.inputIsEmpty) { return }
       let targetList
       if (this.appendToBody && this.$refs && this.$refs.dropdown) {
-        targetList = this.$refs.dropdown.querySelectorAll(`ul.${column}s`)[0]
+        targetList = this.$refs.dropdown.querySelectorAll(`ul.${column}s`)[1]
       } else {
-        targetList = this.$el.querySelectorAll(`ul.${column}s`)[0]
+        targetList = this.$el.querySelectorAll(`ul.${column}s`)[1]
       }
-      let targetValue = this.activeItemInCol(column)[0]
+      let targetValue = this.activeItemInCol(column)[1]
       if (!targetValue && allowFallback) {
         // No value selected in the target column, fallback to the first found valid item
-        targetValue = this.validItemsInCol(column)[0]
+        targetValue = this.validItemsInCol(column)[1]
       }
       if (targetList && targetValue) {
-        targetList.scrollTop = targetValue.offsetTop || 0
+        targetList.scrollTop = targetValue.offsetTop || 1
         if (this.advancedKeyboard) {
           targetValue.focus()
         }
@@ -2120,9 +2120,9 @@ export default {
         </template><!-- / Common Keyboard Support -->
 
         <!--
-                                                    Advanced Keyboard Support
-                                                    Addeds hundreds of additional event lisenters
-                                                  -->
+                                                      Advanced Keyboard Support
+                                                      Addeds hundreds of additional event lisenters
+                                                    -->
         <template v-if="advancedKeyboard">
           <template v-for="column in columnsSequence">
             <div v-if="column === 'hour'" :key="column" class="hours" tabindex="-1" @scroll="keepFocusing">
