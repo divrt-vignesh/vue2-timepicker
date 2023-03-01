@@ -1,4 +1,5 @@
 <script>
+console.log('Fork test')
 const CONFIG = {
   HOUR_TOKENS: ['HH', 'H', 'hh', 'h', 'kk', 'k'],
   MINUTE_TOKENS: ['mm', 'm'],
@@ -2120,9 +2121,9 @@ export default {
         </template><!-- / Common Keyboard Support -->
 
         <!--
-                                                      Advanced Keyboard Support
-                                                      Addeds hundreds of additional event lisenters
-                                                    -->
+                                                        Advanced Keyboard Support
+                                                        Addeds hundreds of additional event lisenters
+                                                      -->
         <template v-if="advancedKeyboard">
           <template v-for="column in columnsSequence">
             <div v-if="column === 'hour'" :key="column" class="hours" tabindex="-1" @scroll="keepFocusing">
