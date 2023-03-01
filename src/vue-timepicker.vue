@@ -2076,8 +2076,8 @@ export default {
         <template v-if="!advancedKeyboard">
           <template v-for="column in columnsSequence">
             <div v-if="column === 'hour'" :key="column" class="hours" @scroll="keepFocusing">
-              <header class="hint" v-text="hourLabelText">
-              </header>
+              <div class="hint" v-text="hourLabelText">
+              </div>
               <ul>
                 <template v-for="(hr, hIndex) in hours">
                   <li v-if="!opts.hideDisabledHours || (opts.hideDisabledHours && !isDisabled('hour', hr))" :key="hIndex"
@@ -2087,7 +2087,7 @@ export default {
               </ul>
             </div>
             <div v-if="column === 'minute'" :key="column" class="minutes" @scroll="keepFocusing">
-              <header class="hint" v-text="minuteLabelText"></header>
+              <div class="hint" v-text="minuteLabelText"></div>
               <ul>
                 <template v-for="(m, mIndex) in minutes">
                   <li v-if="!opts.hideDisabledMinutes || (opts.hideDisabledMinutes && !isDisabled('minute', m))"
@@ -2097,7 +2097,7 @@ export default {
               </ul>
             </div>
             <div v-if="column === 'second'" :key="column" class="seconds" @scroll="keepFocusing">
-              <header class="hint" v-text="secondLabelText"></header>
+              <div class="hint" v-text="secondLabelText"></div>
               <ul>
                 <template v-for="(s, sIndex) in seconds">
                   <li v-if="!opts.hideDisabledSeconds || (opts.hideDisabledSeconds && !isDisabled('second', s))"
@@ -2107,7 +2107,7 @@ export default {
               </ul>
             </div>
             <div v-if="column === 'apm'" :key="column" class="apms" @scroll="keepFocusing">
-              <header class="hint" v-text="apmLabelText"></header>
+              <div class="hint" v-text="apmLabelText"></div>
               <ul>
                 <template v-for="(a, aIndex) in apms">
                   <li v-if="!opts.hideDisabledHours || (opts.hideDisabledHours && !isDisabled('apm', a))" :key="aIndex"
@@ -2121,13 +2121,13 @@ export default {
         </template><!-- / Common Keyboard Support -->
 
         <!--
-                                                        Advanced Keyboard Support
-                                                        Addeds hundreds of additional event lisenters
-                                                      -->
+                                                          Advanced Keyboard Support
+                                                          Addeds hundreds of additional event lisenters
+                                                        -->
         <template v-if="advancedKeyboard">
           <template v-for="column in columnsSequence">
             <div v-if="column === 'hour'" :key="column" class="hours" tabindex="-1" @scroll="keepFocusing">
-              <header class="hint" v-text="hourLabelText" tabindex="-1"></header>
+              <div class="hint" v-text="hourLabelText" tabindex="-1"></div>
               <ul>
                 <template v-for="(hr, hIndex) in hours">
                   <li v-if="!opts.hideDisabledHours || (opts.hideDisabledHours && !isDisabled('hour', hr))" :key="hIndex"
@@ -2142,7 +2142,7 @@ export default {
               </ul>
             </div>
             <div v-if="column === 'minute'" :key="column" class="minutes" tabindex="-1" @scroll="keepFocusing">
-              <header class="hint" v-text="minuteLabelText" tabindex="-1"></header>
+              <div class="hint" v-text="minuteLabelText" tabindex="-1"></div>
               <ul>
                 <template v-for="(m, mIndex) in minutes">
                   <li v-if="!opts.hideDisabledMinutes || (opts.hideDisabledMinutes && !isDisabled('minute', m))"
@@ -2157,7 +2157,7 @@ export default {
               </ul>
             </div>
             <div v-if="column === 'second'" :key="column" class="seconds" tabindex="-1" @scroll="keepFocusing">
-              <header class="hint" v-text="secondLabelText" tabindex="-1"></header>
+              <div class="hint" v-text="secondLabelText" tabindex="-1"></div>
 
               <ul>
                 <template v-for="(s, sIndex) in seconds">
@@ -2173,7 +2173,7 @@ export default {
               </ul>
             </div>
             <div v-if="column === 'apm'" :key="column" class="apms" tabindex="-1" @scroll="keepFocusing">
-              <header class="hint" v-text="apmLabelText" tabindex="-1"></header>
+              <div class="hint" v-text="apmLabelText" tabindex="-1"></div>
               <ul>
                 <template v-for="(a, aIndex) in apms">
                   <li v-if="!opts.hideDisabledHours || (opts.hideDisabledHours && !isDisabled('apm', a))" :key="aIndex"
