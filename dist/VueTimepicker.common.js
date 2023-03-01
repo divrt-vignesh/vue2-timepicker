@@ -286,6 +286,17 @@ module.exports = function (O, P) {
 
 /***/ }),
 
+/***/ "0968":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_707cd2a2_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("1221");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_707cd2a2_prod_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_707cd2a2_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "0b42":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -449,6 +460,13 @@ module.exports = fails(function () {
     'b'.replace(re, '$<a>c') !== 'bc';
 });
 
+
+/***/ }),
+
+/***/ "1221":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -4366,13 +4384,6 @@ if (DESCRIPTORS && !FUNCTION_NAME_EXISTS) {
 
 /***/ }),
 
-/***/ "b1f5":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "b42e":
 /***/ (function(module, exports) {
 
@@ -5646,17 +5657,6 @@ module.exports =
 
 /***/ }),
 
-/***/ "dc0d":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_5cd58ef3_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b1f5");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_5cd58ef3_prod_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_5cd58ef3_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "dc4a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6349,7 +6349,7 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5919bc76-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-timepicker.vue?vue&type=template&id=5cd58ef3&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"43654b48-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-timepicker.vue?vue&type=template&id=707cd2a2&
 
 var render = function render() {
   var _vm = this,
@@ -6473,18 +6473,19 @@ var render = function render() {
       "tabindex": "-1"
     }
   }, [!_vm.advancedKeyboard ? [_vm._l(_vm.columnsSequence, function (column) {
-    return [column === 'hour' ? _c('div', {
+    return [column === 'hour' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      domProps: {
+        "textContent": _vm._s(_vm.hourLabelText)
+      }
+    }) : _vm._e(), column === 'hour' ? _c('ul', {
       key: column,
       staticClass: "hours",
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      domProps: {
-        "textContent": _vm._s(_vm.hourLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.hours, function (hr, hIndex) {
+    }, [_vm._l(_vm.hours, function (hr, hIndex) {
       return [!_vm.opts.hideDisabledHours || _vm.opts.hideDisabledHours && !_vm.isDisabled('hour', hr) ? _c('li', {
         key: hIndex,
         class: {
@@ -6503,18 +6504,19 @@ var render = function render() {
           }
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e(), column === 'minute' ? _c('div', {
+    })], 2) : _vm._e(), column === 'minute' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      domProps: {
+        "textContent": _vm._s(_vm.minuteLabelText)
+      }
+    }) : _vm._e(), column === 'minute' ? _c('ul', {
       key: column,
       staticClass: "minutes",
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      domProps: {
-        "textContent": _vm._s(_vm.minuteLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.minutes, function (m, mIndex) {
+    }, [_vm._l(_vm.minutes, function (m, mIndex) {
       return [!_vm.opts.hideDisabledMinutes || _vm.opts.hideDisabledMinutes && !_vm.isDisabled('minute', m) ? _c('li', {
         key: mIndex,
         class: {
@@ -6533,18 +6535,19 @@ var render = function render() {
           }
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e(), column === 'second' ? _c('div', {
+    })], 2) : _vm._e(), column === 'second' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      domProps: {
+        "textContent": _vm._s(_vm.secondLabelText)
+      }
+    }) : _vm._e(), column === 'second' ? _c('ul', {
       key: column,
       staticClass: "seconds",
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      domProps: {
-        "textContent": _vm._s(_vm.secondLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.seconds, function (s, sIndex) {
+    }, [_vm._l(_vm.seconds, function (s, sIndex) {
       return [!_vm.opts.hideDisabledSeconds || _vm.opts.hideDisabledSeconds && !_vm.isDisabled('second', s) ? _c('li', {
         key: sIndex,
         class: {
@@ -6563,18 +6566,19 @@ var render = function render() {
           }
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e(), column === 'apm' ? _c('div', {
+    })], 2) : _vm._e(), column === 'apm' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      domProps: {
+        "textContent": _vm._s(_vm.apmLabelText)
+      }
+    }) : _vm._e(), column === 'apm' ? _c('ul', {
       key: column,
       staticClass: "apms",
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      domProps: {
-        "textContent": _vm._s(_vm.apmLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.apms, function (a, aIndex) {
+    }, [_vm._l(_vm.apms, function (a, aIndex) {
       return [!_vm.opts.hideDisabledHours || _vm.opts.hideDisabledHours && !_vm.isDisabled('apm', a) ? _c('li', {
         key: aIndex,
         class: {
@@ -6593,9 +6597,18 @@ var render = function render() {
           }
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e()];
+    })], 2) : _vm._e()];
   })] : _vm._e(), _vm.advancedKeyboard ? [_vm._l(_vm.columnsSequence, function (column) {
-    return [column === 'hour' ? _c('div', {
+    return [column === 'hour' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      attrs: {
+        "tabindex": "-1"
+      },
+      domProps: {
+        "textContent": _vm._s(_vm.hourLabelText)
+      }
+    }) : _vm._e(), column === 'hour' ? _c('ul', {
       key: column,
       staticClass: "hours",
       attrs: {
@@ -6604,15 +6617,7 @@ var render = function render() {
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      attrs: {
-        "tabindex": "-1"
-      },
-      domProps: {
-        "textContent": _vm._s(_vm.hourLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.hours, function (hr, hIndex) {
+    }, [_vm._l(_vm.hours, function (hr, hIndex) {
       return [!_vm.opts.hideDisabledHours || _vm.opts.hideDisabledHours && !_vm.isDisabled('hour', hr) ? _c('li', {
         key: hIndex,
         class: {
@@ -6668,7 +6673,16 @@ var render = function render() {
           "focus": _vm.keepFocusing
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e(), column === 'minute' ? _c('div', {
+    })], 2) : _vm._e(), column === 'minute' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      attrs: {
+        "tabindex": "-1"
+      },
+      domProps: {
+        "textContent": _vm._s(_vm.minuteLabelText)
+      }
+    }) : _vm._e(), column === 'minute' ? _c('ul', {
       key: column,
       staticClass: "minutes",
       attrs: {
@@ -6677,15 +6691,7 @@ var render = function render() {
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      attrs: {
-        "tabindex": "-1"
-      },
-      domProps: {
-        "textContent": _vm._s(_vm.minuteLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.minutes, function (m, mIndex) {
+    }, [_vm._l(_vm.minutes, function (m, mIndex) {
       return [!_vm.opts.hideDisabledMinutes || _vm.opts.hideDisabledMinutes && !_vm.isDisabled('minute', m) ? _c('li', {
         key: mIndex,
         class: {
@@ -6741,7 +6747,16 @@ var render = function render() {
           "focus": _vm.keepFocusing
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e(), column === 'second' ? _c('div', {
+    })], 2) : _vm._e(), column === 'second' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      attrs: {
+        "tabindex": "-1"
+      },
+      domProps: {
+        "textContent": _vm._s(_vm.secondLabelText)
+      }
+    }) : _vm._e(), column === 'second' ? _c('ul', {
       key: column,
       staticClass: "seconds",
       attrs: {
@@ -6750,15 +6765,7 @@ var render = function render() {
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      attrs: {
-        "tabindex": "-1"
-      },
-      domProps: {
-        "textContent": _vm._s(_vm.secondLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.seconds, function (s, sIndex) {
+    }, [_vm._l(_vm.seconds, function (s, sIndex) {
       return [!_vm.opts.hideDisabledSeconds || _vm.opts.hideDisabledSeconds && !_vm.isDisabled('second', s) ? _c('li', {
         key: sIndex,
         class: {
@@ -6814,7 +6821,16 @@ var render = function render() {
           "focus": _vm.keepFocusing
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e(), column === 'apm' ? _c('div', {
+    })], 2) : _vm._e(), column === 'apm' ? _c('header', {
+      key: column,
+      staticClass: "hint",
+      attrs: {
+        "tabindex": "-1"
+      },
+      domProps: {
+        "textContent": _vm._s(_vm.apmLabelText)
+      }
+    }) : _vm._e(), column === 'apm' ? _c('ul', {
       key: column,
       staticClass: "apms",
       attrs: {
@@ -6823,15 +6839,7 @@ var render = function render() {
       on: {
         "scroll": _vm.keepFocusing
       }
-    }, [_c('header', {
-      staticClass: "hint",
-      attrs: {
-        "tabindex": "-1"
-      },
-      domProps: {
-        "textContent": _vm._s(_vm.apmLabelText)
-      }
-    }), _c('ul', [_vm._l(_vm.apms, function (a, aIndex) {
+    }, [_vm._l(_vm.apms, function (a, aIndex) {
       return [!_vm.opts.hideDisabledHours || _vm.opts.hideDisabledHours && !_vm.isDisabled('apm', a) ? _c('li', {
         key: aIndex,
         class: {
@@ -6887,12 +6895,12 @@ var render = function render() {
           "focus": _vm.keepFocusing
         }
       }) : _vm._e()];
-    })], 2)]) : _vm._e()];
+    })], 2) : _vm._e()];
   })] : _vm._e()], 2)])]);
 };
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./src/vue-timepicker.vue?vue&type=template&id=5cd58ef3&
+// CONCATENATED MODULE: ./src/vue-timepicker.vue?vue&type=template&id=707cd2a2&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.js
 var es_symbol = __webpack_require__("a4d3");
@@ -9297,8 +9305,8 @@ var DEFAULT_OPTIONS = {
 });
 // CONCATENATED MODULE: ./src/vue-timepicker.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_vue_timepickervue_type_script_lang_js_ = (vue_timepickervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/vue-timepicker.vue?vue&type=style&index=0&id=5cd58ef3&prod&lang=css&
-var vue_timepickervue_type_style_index_0_id_5cd58ef3_prod_lang_css_ = __webpack_require__("dc0d");
+// EXTERNAL MODULE: ./src/vue-timepicker.vue?vue&type=style&index=0&id=707cd2a2&prod&lang=css&
+var vue_timepickervue_type_style_index_0_id_707cd2a2_prod_lang_css_ = __webpack_require__("0968");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
